@@ -41,6 +41,13 @@ const data = [
     title: 'WordPress',
     description: 'Intermediate',
   },
+  {
+    id: 4,
+    imgSrc: IMG7,
+    altText: 'Tailwind',
+    title: 'Tailwind',
+    description: 'Intermediate',
+  },
 ];
 
 const data2 = [
@@ -73,46 +80,6 @@ const data2 = [
     description: 'Intermediate',
   },
 ];
-
-// const ExperienceList = () => {
-//   return (
-//     <div className='container experience__container'>
-//       {
-//       data.map(({imgSrc, title, description}, index) => (
-//         return (
-//           <article className="experience" key={experience.id}>
-//           <div className="experience__icon">
-//             <img src={experience.imgSrc} alt={experience.altText} />
-//           </div>
-//           <h5 className='skill__name'>{experience.title}</h5>
-//           <small className="skill__level">{experience.description}</small>
-//         </article>
-//         )
-        
-//       ))
-//       }
-//     </div>
-//   );
-// };
-
-
-// const ExperienceList2 = () => {
-//     return (
-//       <div /*className= 'container experience__container' */>
-//         {data2.map((experience) => (
-//           <article className="experience" key={experience.id}>
-//             <div className="experience__icon">
-//               <img src={experience.imgSrc} alt={experience.altText} />
-//             </div>
-//             <h5 className='skill__name'>{experience.title}</h5>
-//             <small className="skill__level">{experience.description}</small>
-//           </article>
-//         ))}
-//       </div>
-//     );
-// };
-
-
 
 const Experience = () => {
   return (
