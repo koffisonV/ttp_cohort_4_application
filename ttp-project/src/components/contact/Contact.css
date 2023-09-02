@@ -4,11 +4,7 @@
     grid-template-columns: 30% 58%;
     gap: 12%;
     margin-bottom: 6rem;
-    transition: var(--transition);
-}
-
-.container.contact__container:hover {
-    transform: scale(1.05);
+    /* transition: var(--transition); */
 }
 
 .contact__options {
@@ -42,6 +38,15 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+}
+
+.scroll__up{
+    position: absolute;
+    right: 9rem;
+    /* bottom: 5rem; */
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
 }
 
 /* =========form ============= */
