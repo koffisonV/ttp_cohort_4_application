@@ -17,6 +17,10 @@ import IMG4 from "../../assets/img4.png";
 import IMG5 from "../../assets/img5.png";
 import IMG6 from "../../assets/img6.png";
 import IMG7 from "../../assets/img7.png";
+import IMG8 from "../../assets/img8.png";
+import IMG9 from "../../assets/img9.png";
+import IMG10 from "../../assets/img10.png";
+
 import "../../index.js";
 
 // ============== SLIDES ARRAY ================
@@ -43,7 +47,7 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: IMG7,
+    imgSrc: IMG8,
     altText: "Tailwind",
     title: "Tailwind",
     description: "Intermediate",
@@ -79,6 +83,21 @@ const data2 = [
     title: "Git",
     description: "Intermediate",
   },
+  {
+    id: 5,
+    imgSrc: IMG9,
+    altText: "PostgreSQL",
+    title: "PostgreSQL",
+    description: "Intermediate",
+  },
+  {
+    id: 6,
+    imgSrc: IMG10,
+    altText: "ExpressJS",
+    title: "ExpressJS",
+    description: "Intermediate",
+  },
+  
 ];
 
 const Experience = () => {
