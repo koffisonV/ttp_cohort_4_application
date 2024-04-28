@@ -1,7 +1,7 @@
 # Portfolio
 
 This is a view of my Portfolio using React, Node, and other react components to build this single-page website.
-The purpose of this project is to showcase my technical skills as well as programming expertise.
+The purpose of this project is to visually showcase technical skills as well as programming expertise.
 
 ## Getting Started
 To explore this project, follow these simple steps:
