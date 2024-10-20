@@ -97,7 +97,6 @@ const data2 = [
     title: "ExpressJS",
     description: "Intermediate",
   },
-  
 ];
 
 const Experience = () => {
